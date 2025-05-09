@@ -1,0 +1,22 @@
+.twitch-embed-wrapper iframe {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16/9;
+    margin-bottom: 1rem;
+}
+.twitch-chat {
+    height: 400px;
+}
+.twitch-status-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.twitch-status-icon.live {
+    background: #0f0;
+}
+.twitch-status-icon.offline {
+    background: #f00;
+}
